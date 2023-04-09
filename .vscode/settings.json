@@ -1,0 +1,14 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.terminal.activateEnvironment": false,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic"
+}
