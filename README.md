@@ -133,7 +133,7 @@ if your virtual environment is elsewhere, select `Enter interpreter path...` and
 3. Optionally enable type checking by adding `"python.analysis.typeCheckingMode": "basic"`, final `settings.json` file:
     ```json
     {
-        "python.pythonPath": ".venv\\Scripts\\python.exe",
+        "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe",
         "python.terminal.activateEnvironment": false,
         "python.linting.pylintEnabled": false,
         "python.linting.flake8Enabled": true,
